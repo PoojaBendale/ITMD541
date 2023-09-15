@@ -1,0 +1,91 @@
+.header {
+    padding: 0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.879);
+    text-shadow: 2px 2px 6px #9260f7;
+    background: #1d0636cb;
+
+  }
+  
+  /* Increase the font size of the h1 element */
+  .header h1 {
+    font-size: 25px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .box{
+    width: 750px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+  }
+
+
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+
+  .box dl{
+    text-align: left;
+  }
+  
+ 
